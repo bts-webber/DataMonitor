@@ -2,4 +2,4 @@
 #Usage
 vim config.json
 ##RUN
-python2.7 monitor
+`python2.7 monitor.py`
