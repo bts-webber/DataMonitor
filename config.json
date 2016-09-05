@@ -10,10 +10,10 @@
   },
   "kafka":[
     {"netflow":["avro_topic","enrich_topic"]},
-    {"f5":["avro_topic","enrich_topic"]},
+    {"f5":["avro_topic","enrich_topic"]}
   ],
   "elasticsearch":[
     {"netflow":"netflow_type"},
-    {"ips-venus":"ips_type"},
+    {"ips-venus":"ips_type"}
   ]
 }
