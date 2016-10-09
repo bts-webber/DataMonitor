@@ -37,7 +37,6 @@ class flume_monitor(object):
                     for i in metrics[host]["SPEED"].keys():
                         if "error" in i:
                             metrics[host]["SPEED"].pop(i)
-                print metrics[host]["SPEED"]
                 sink_speed=[]
                 for i in metrics[host]["SPEED"].values():
                     if i[:-3]=="":
