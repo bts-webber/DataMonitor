@@ -36,6 +36,7 @@ class Scheduler(object):
     def scheduler(self):
         result = {}
         result["flume"] = self.flume_scheduler()
+
         result["kafka"] = self.kafka_scheduler()
         result["es"]=self.es_scheduler()
         return  result
